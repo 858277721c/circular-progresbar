@@ -131,7 +131,7 @@ public class CircularProgressBar extends View
     }
 
     /**
-     * 设置进度条宽度
+     * 设置进度条粗细
      *
      * @param width
      */
