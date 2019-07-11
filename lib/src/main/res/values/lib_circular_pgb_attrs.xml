@@ -13,7 +13,7 @@
         <attr name="cpgbMax" format="integer" />
         <!-- 进度条粗细 -->
         <attr name="cpgbProgressWidth" format="dimension" />
-        <!-- 进度开始点角度 -->
+        <!-- 进度起始角度 -->
         <attr name="cpgbStartAngel" format="integer" />
 
     </declare-styleable>
