@@ -4,7 +4,7 @@ Android 圆形进度条
 # Gradle
 [![](https://jitpack.io/v/zj565061763/circular-progresbar.svg)](https://jitpack.io/#zj565061763/circular-progresbar)
 
-# Demo
+# Example
 ![](https://github.com/zj565061763/circular-progresbar/blob/master/screenshot/circular_pgb.png?raw=true)
 
 ```xml
