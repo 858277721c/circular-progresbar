@@ -18,7 +18,7 @@ Android 圆形进度条
     app:cpgbProgressColor="@color/colorAccent"
     app:cpgbProgressWidth="5dp"
     app:cpgbStartAngel="-90" />
-```xml
+```
 
 ```java
 // 设置进度
