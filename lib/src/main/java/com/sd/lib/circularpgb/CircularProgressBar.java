@@ -24,9 +24,6 @@ public class CircularProgressBar extends View
     public CircularProgressBar(Context context, AttributeSet attrs)
     {
         super(context, attrs);
-        mPaint = new Paint();
-        mPaint.setAntiAlias(true);
-        mPaint.setStyle(Paint.Style.STROKE);
 
         mNormalColor = getResources().getColor(R.color.lib_circular_normal_color);
         mProgressColor = getResources().getColor(R.color.lib_circular_progress_color);
@@ -57,6 +54,11 @@ public class CircularProgressBar extends View
 
             a.recycle();
         }
+
+        mPaint = new Paint();
+        mPaint.setAntiAlias(true);
+        mPaint.setStyle(Paint.Style.STROKE);
+        mPaint.setStrokeWidth(mProgressWidth);
     }
 
     /**
