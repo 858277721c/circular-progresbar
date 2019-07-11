@@ -8,7 +8,7 @@ import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.view.View;
 
-public class CircularProgressBar extends View
+public class FCircularProgressBar extends View
 {
     private final Paint mPaint;
 
@@ -21,7 +21,7 @@ public class CircularProgressBar extends View
     private int mProgressWidth;
     private int mStartAngel;
 
-    public CircularProgressBar(Context context, AttributeSet attrs)
+    public FCircularProgressBar(Context context, AttributeSet attrs)
     {
         super(context, attrs);
 
