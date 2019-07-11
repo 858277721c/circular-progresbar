@@ -62,7 +62,7 @@ public class CircularProgressBar extends View
     }
 
     /**
-     * 设置进度
+     * 设置进度值
      *
      * @param progress
      */
