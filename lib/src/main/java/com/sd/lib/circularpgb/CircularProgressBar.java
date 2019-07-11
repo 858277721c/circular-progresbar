@@ -1,6 +1,7 @@
 package com.sd.lib.circularpgb;
 
 import android.content.Context;
+import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.RectF;
@@ -18,7 +19,7 @@ public class CircularProgressBar extends View
     private int mProgressColor;
 
     private int mProgressWidth;
-    private int mStartAngel = -90;
+    private int mStartAngel;
 
     public CircularProgressBar(Context context, AttributeSet attrs)
     {
@@ -30,6 +31,32 @@ public class CircularProgressBar extends View
         mNormalColor = getResources().getColor(R.color.lib_circular_normal_color);
         mProgressColor = getResources().getColor(R.color.lib_circular_progress_color);
         mProgressWidth = getResources().getDimensionPixelSize(R.dimen.lib_circular_progress_width);
+        mStartAngel = getResources().getInteger(R.integer.lib_circular_start_angel);
+
+        if (attrs != null)
+        {
+            final TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.LibCircularProgressBar);
+
+            if (a.hasValue(R.styleable.LibCircularProgressBar_cpgbProgress))
+                mProgress = a.getInteger(R.styleable.LibCircularProgressBar_cpgbProgress, mProgress);
+
+            if (a.hasValue(R.styleable.LibCircularProgressBar_cpgbMax))
+                mMax = a.getInteger(R.styleable.LibCircularProgressBar_cpgbMax, mMax);
+
+            if (a.hasValue(R.styleable.LibCircularProgressBar_cpgbNormalColor))
+                mNormalColor = a.getColor(R.styleable.LibCircularProgressBar_cpgbNormalColor, mNormalColor);
+
+            if (a.hasValue(R.styleable.LibCircularProgressBar_cpgbProgressColor))
+                mProgressColor = a.getColor(R.styleable.LibCircularProgressBar_cpgbProgressColor, mProgressColor);
+
+            if (a.hasValue(R.styleable.LibCircularProgressBar_cpgbProgressWidth))
+                mProgressWidth = a.getDimensionPixelSize(R.styleable.LibCircularProgressBar_cpgbProgressWidth, mProgressWidth);
+
+            if (a.hasValue(R.styleable.LibCircularProgressBar_cpgbStartAngel))
+                mStartAngel = a.getInteger(R.styleable.LibCircularProgressBar_cpgbStartAngel, mStartAngel);
+
+            a.recycle();
+        }
     }
 
     /**

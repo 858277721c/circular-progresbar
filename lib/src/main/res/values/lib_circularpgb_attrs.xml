@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LibCircularProgressBar">
+
+        <!-- 进度条正常颜色 -->
+        <attr name="cpgbNormalColor" format="color" />
+        <!-- 进度条进度颜色 -->
+        <attr name="cpgbProgressColor" format="color" />
+        <!-- 进度条进度值 -->
+        <attr name="cpgbProgress" format="integer" />
+        <!-- 进度条最大值 -->
+        <attr name="cpgbMax" format="integer" />
+        <!-- 进度条粗细 -->
+        <attr name="cpgbProgressWidth" format="dimension" />
+        <!-- 进度开始点角度 -->
+        <attr name="cpgbStartAngel" format="integer" />
+
+    </declare-styleable>
+
+</resources>
