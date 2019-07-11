@@ -25,10 +25,10 @@ public class CircularProgressBar extends View
     {
         super(context, attrs);
 
-        mNormalColor = getResources().getColor(R.color.lib_cpb_normal_color);
-        mProgressColor = getResources().getColor(R.color.lib_cpb_progress_color);
-        mProgressWidth = getResources().getDimensionPixelSize(R.dimen.lib_cpb_progress_width);
-        mStartAngel = getResources().getInteger(R.integer.lib_cpb_start_angel);
+        mNormalColor = getResources().getColor(R.color.lib_circular_pgb_normal_color);
+        mProgressColor = getResources().getColor(R.color.lib_circular_pgb_progress_color);
+        mProgressWidth = getResources().getDimensionPixelSize(R.dimen.lib_circular_pgb_progress_width);
+        mStartAngel = getResources().getInteger(R.integer.lib_circular_pgb_start_angel);
 
         if (attrs != null)
         {
