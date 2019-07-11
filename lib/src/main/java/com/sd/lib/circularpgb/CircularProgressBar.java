@@ -146,7 +146,7 @@ public class CircularProgressBar extends View
     }
 
     /**
-     * 设置进度开始的的角度，默认顶部（-90度）
+     * 设置进度起始角度，默认顶部（-90度）
      *
      * @param angel
      */
