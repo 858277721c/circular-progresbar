@@ -1,7 +1,7 @@
 <resources>
 
     <!-- 进度条正常颜色 -->
-    <color name="lib_circular_normal_color">#999999</color>
+    <color name="lib_circular_normal_color">#eeeeee</color>
     <!-- 进度条进度颜色 -->
     <color name="lib_circular_progress_color">#FF0000</color>
 
