@@ -1,13 +1,13 @@
 <resources>
 
     <!-- 进度条正常颜色 -->
-    <color name="lib_circular_normal_color">#eeeeee</color>
+    <color name="lib_cpb_normal_color">#eeeeee</color>
     <!-- 进度条进度颜色 -->
-    <color name="lib_circular_progress_color">#FF0000</color>
+    <color name="lib_cpb_progress_color">#FF0000</color>
 
     <!-- 进度条粗细 -->
-    <dimen name="lib_circular_progress_width">2dp</dimen>
+    <dimen name="lib_cpb_progress_width">2dp</dimen>
     <!-- 进度开始点角度 -->
-    <integer name="lib_circular_start_angel">-90</integer>
+    <integer name="lib_cpb_start_angel">-90</integer>
 
 </resources>
