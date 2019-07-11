@@ -82,7 +82,7 @@ public class CircularProgressBar extends View
     }
 
     /**
-     * 设置最大值
+     * 设置最大值，默认100
      *
      * @param max
      */
