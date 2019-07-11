@@ -8,14 +8,14 @@
 
     <com.sd.lib.circularpgb.CircularProgressBar
         android:id="@+id/progressbar"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:background="@color/colorPrimary"
         app:cpgbMax="100"
         app:cpgbNormalColor="#999999"
         app:cpgbProgress="70"
         app:cpgbProgressColor="@color/colorAccent"
-        app:cpgbProgressWidth="5dp"
+        app:cpgbProgressWidth="2dp"
         app:cpgbStartAngel="-90" />
 
 </LinearLayout>
