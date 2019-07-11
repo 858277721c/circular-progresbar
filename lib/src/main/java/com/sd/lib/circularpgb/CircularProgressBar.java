@@ -2,7 +2,6 @@ package com.sd.lib.circularpgb;
 
 import android.content.Context;
 import android.graphics.Canvas;
-import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.RectF;
 import android.util.AttributeSet;
@@ -15,8 +14,8 @@ public class CircularProgressBar extends View
     private int mProgress;
     private int mMax = 100;
 
-    private int mNormalColor = Color.parseColor("#999999");
-    private int mProgressColor = Color.RED;
+    private int mNormalColor;
+    private int mProgressColor;
 
     private int mProgressWidth;
     private int mStartAngel = -90;
@@ -28,7 +27,9 @@ public class CircularProgressBar extends View
         mPaint.setAntiAlias(true);
         mPaint.setStyle(Paint.Style.STROKE);
 
-        mProgressWidth = (int) (getResources().getDisplayMetrics().density * 2);
+        mNormalColor = getResources().getColor(R.color.lib_circular_normal_color);
+        mProgressColor = getResources().getColor(R.color.lib_circular_progress_color);
+        mProgressWidth = getResources().getDimensionPixelSize(R.dimen.lib_circular_progress_width);
     }
 
     /**

@@ -4,4 +4,7 @@
     <color name="lib_circular_normal_color">#999999</color>
     <!-- 进度条进度颜色 -->
     <color name="lib_circular_progress_color">#FF0000</color>
+
+    <!-- 进度条粗细 -->
+    <dimen name="lib_circular_progress_width">2dp</dimen>
 </resources>
