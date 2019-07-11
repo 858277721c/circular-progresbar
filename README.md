@@ -71,7 +71,7 @@ progressBar.setStartAngel(-90);
 
     <!-- 进度条粗细 -->
     <dimen name="lib_circular_pgb_progress_width">2dp</dimen>
-    <!-- 进度开始点角度 -->
+    <!-- 进度起始角度 -->
     <integer name="lib_circular_pgb_start_angel">-90</integer>
 
 </resources>
