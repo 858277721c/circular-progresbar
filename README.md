@@ -32,7 +32,7 @@ progressBar.setNormalColor(Color.BLACK);
 progressBar.setProgressColor(Color.RED);
 // 设置进度条粗细
 progressBar.setProgressWidth(10);
-// 设置进度开始的的角度，默认顶部（-90度）
+// 设置进度起始角度，默认顶部（-90度）
 progressBar.setStartAngel(-90);
 ```
 
@@ -52,7 +52,7 @@ progressBar.setStartAngel(-90);
         <attr name="cpgbMax" format="integer" />
         <!-- 进度条粗细 -->
         <attr name="cpgbProgressWidth" format="dimension" />
-        <!-- 进度开始点角度 -->
+        <!-- 进度起始角度 -->
         <attr name="cpgbStartAngel" format="integer" />
 
     </declare-styleable>
