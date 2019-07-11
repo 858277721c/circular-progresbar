@@ -8,7 +8,7 @@ Android 圆形进度条
 ![](https://github.com/zj565061763/circular-progresbar/blob/master/screenshot/circular_pgb.png?raw=true)
 
 ```xml
-<com.sd.lib.circularpgb.CircularProgressBar
+<com.sd.lib.circularpgb.FCircularProgressBar
     android:id="@+id/progressbar"
     android:layout_width="50dp"
     android:layout_height="50dp"
