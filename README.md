@@ -22,7 +22,7 @@ Android 圆形进度条
 ```
 
 ```java
-// 设置进度
+// 设置进度值
 progressBar.setProgress(50);
 // 设置最大值，默认100
 progressBar.setMax(100);
